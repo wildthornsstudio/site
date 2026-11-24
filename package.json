@@ -16,5 +16,8 @@
     "astro": "^7.4.13",
     "daisyui": "^5.8.2",
     "tailwindcss": "^4.3.5"
+  },
+   "allowScripts": {
+    "esbuild": true
   }
 }
