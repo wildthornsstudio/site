@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+h1 {
+    @apply text-6xl font-bold;
+}
+
+h2 {
+    @apply text-4xl font-bold;
+}
+
+h3 {
+    @apply text-3xl font-bold;
+
+}
+
+h4 {
+    @apply text-2xl font-bold;
+
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.piedra-regular {
+  font-family: "Piedra", serif;
+  font-weight: 400;
+  font-style: normal;
+}

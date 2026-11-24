@@ -1,0 +1,79 @@
+---
+import "../assets/app.css";
+import Footer from "../layouts/Footer.astro";
+import Nav from "../layouts/Nav.astro";
+import Header from "../layouts/Header.astro";
+---
+
+<html lang="en">
+	<Header title="WildThorns Studio" />
+	<body class="bg-[#060101] min-h-screen">
+		<Nav />
+		<main class="flex flex-col flex-grow justify-center mx-auto max-w-5xl px-4">
+			<section class="py-4">
+				<h1 class="pb-4 piedra-regular">Our projects</h1>
+				<img
+					src="/site/Euphonia_Title_SonEtSoleil.png"
+					alt="Euphonia title picture"
+					class="rounded-box py-2"
+				/>
+				<p class="py-2">
+					We are curently working on a solo narrative-driven puzzle
+					game called{" "}
+					<span class="font-bold italic">
+						{" "}
+						Euphonia : De Son Et De Soleil.
+					</span>
+				</p>
+				<div class="grid grid-cols-2 gap-4">
+					<div>
+						<img
+							src="/site/Beatyshoot_Landscape_006.png"
+							alt="Euphonia picture"
+							
+						/>
+						
+					</div>
+					<div>
+						<img
+							src="/site/Beautyshot_Landscape_015.png"
+							alt="Euphonia picture"
+													/>
+					</div>
+					<div>
+						<img
+							src="/site/Beautyshot_Landscape_008.png"
+							alt="Euphonia picture"
+							
+						/>
+					</div>
+					<div>
+						<img
+							src="/site/Beautyshot_Gameplay_006.png"
+							alt="Euphonia picture"
+							
+						/>
+					</div>
+					<div>
+						<img
+							src="/site/Beautyshot_Landscape_013.png"
+							alt="Euphonia picture"
+							
+						/>
+					</div>
+					<div>
+						<img
+							src="/site/Euphonia_Screenshot3.png"
+														alt="Euphonia picture"
+
+							
+						/>
+					</div>
+				</div>
+				<p class="py-4">Discover the universe and play the demo now on itch.io : <a href="https://wildthorns-studio.itch.io/euphonia" class="underline">https://wildthorns-studio.itch.io/euphonia</a>.</p>
+			</section>
+		</main>
+		<Footer />
+	</body>
+	
+</html>
