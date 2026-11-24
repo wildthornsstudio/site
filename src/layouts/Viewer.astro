@@ -1,0 +1,23 @@
+
+<div
+  id="viewer"
+  class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 p-4"
+>
+  <div id="viewer-content" class="relative max-w-4xl w-full">
+    <button
+      id="viewer-close"
+      type="button"
+      class="absolute -top-10 right-0 text-white text-2xl font-bold hover:text-gray-300 cursor-pointer"
+      aria-label="Fermer"
+    >
+      &times;
+    </button>
+    <img id="viewer-img" src="" alt="" class="max-h-[85vh] w-full object-contain rounded-lg" />
+    <!-- <p id="viewer-caption" class="text-white text-center mt-2 text-sm"></p> -->
+  </div>
+</div>
+
+<script>
+  import { initViewer } from 'src/assets/viewer.js';
+  initViewer();
+</script>
